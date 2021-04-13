@@ -3,11 +3,11 @@ var crypto = require("crypto");
 
 //HASHING
 console.log("\n", "-----BEGIN HASHING-----");
-var code1 = "John Doe";
+var code1 = "Rachel Swallow";
 const hash1 = crypto.createHash("sha256").update(code1).digest("base64");
 console.log("First hash: " + hash1);
 
-var code2 = "John doe";
+var code2 = "John Swallow";
 const hash2 = crypto.createHash("sha256").update(code2).digest("base64");
 console.log("Second hash: " + hash2);
 
